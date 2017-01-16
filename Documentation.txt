@@ -1,0 +1,15 @@
+Documentation:
+	1) http://artificialintelligence.ai-depot.com/Essay/ExpertSystem-Connect4.html
+		- Led me to various sites giving information on strategic play, notably:
+	2) http://www.connectfour.net/Files/connect4.pdf
+		- Very influential on how to play the game with tactics, yet little was actually
+		  implemented in code (with the exception of the idea that the center of the
+		  board is valuable considering it has the greatest links available, thus contributing
+		  to my evaluate function). Also this mentioned the idea of "even" and "odd" threats,
+		  which I oversimplified in calculating all "threats" in my evaluation function.
+	3) http://en.wikibooks.org/wiki/Connect_four#Theory
+		- Explained basic theory in Connect-4, however was not implemented (though this matches
+		  the idea of "threats" explained by Victor Allis
+	4) http://www.ocf.berkeley.edu/~yosenl/extras/alphabeta/alphabeta.html
+		- Gave examples of both minimax algorithms and alpha-beta pruning (however AB pruning
+		  was not implemented; the minimax algorithm used was from the class slides.
